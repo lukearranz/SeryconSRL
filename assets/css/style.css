@@ -728,13 +728,13 @@ section {
   fill: #ff5828;
 }
 .services .iconbox-teal i {
-  color: #11dbcf;
+  color: #5cb874;
 }
 .services .iconbox-teal:hover .icon i {
   color: #fff;
 }
 .services .iconbox-teal:hover .icon path {
-  fill: #11dbcf;
+  fill: #5cb874;
 }
 
 /*--------------------------------------------------------------
