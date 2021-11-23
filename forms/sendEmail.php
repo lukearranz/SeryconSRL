@@ -22,8 +22,8 @@
         $mail->SMTPAuth = true;
 
         // Desde este mail salen los correos
-        $mail->Username = "polloarranz@gmail.com"; //enter you email address
-        $mail->Password = 'arranchus1313'; //enter you email password
+        $mail->Username = "ejemplo@gmail.com"; //enter you email address
+        $mail->Password = 'ejemplo'; //enter you email password
 
 
         $mail->Port = 465;
@@ -34,7 +34,7 @@
         $mail->setFrom($email,$name);
 
         // A este mail llegan los correos
-        $mail->addAddress("polloarranz@gmail.com"); //enter you email address
+        $mail->addAddress("ejemplo@gmail.com"); //enter you email address
 
         $mail->Subject = ("$email - ($subject)");
         $mail->Body = $body;
