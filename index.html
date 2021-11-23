@@ -687,14 +687,14 @@
           </div>
 
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form action="forms/sendEmail.php" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="form-group col-md-6">
                   <label for="name">Nombre</label>
                   <input type="text" name="name" class="form-control" id="name" required>
                 </div>
                 <div class="form-group col-md-6 mt-3 mt-md-0">
-                  <label for="name">Email</label>
+                  <label for="name">Mail</label>
                   <input type="email" class="form-control" name="email" id="email" required>
                 </div>
               </div>
@@ -704,12 +704,12 @@
               </div>
               <div class="form-group mt-3">
                 <label for="name">Mensaje</label>
-                <textarea class="form-control" name="message" rows="10" required></textarea>
+                <textarea class="form-control" name="body" rows="10" required></textarea>
               </div>
               <div class="my-3">
-                <div class="loading">Loading</div>
+                <div class="loading">Cargando</div>
                 <div class="error-message"></div>
-                <div class="sent-message">Mensaje enviado, responderemos a la brevedad!</div>
+                <div class="sent-message">Su consulta ha sido enviada, responderemos a la brevedad, gracias!</div>
               </div>
               <div class="text-center"><button type="submit">Enviar Mensaje</button></div>
             </form>
