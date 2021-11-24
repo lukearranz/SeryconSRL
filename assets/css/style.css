@@ -522,7 +522,7 @@ section {
 .featured-services .icon {
   margin-bottom: 15px;
 }
-.featured-services .icon i {
+.featured-services .icon i{
   color: #5cb874;
   font-size: 42px;
 }
@@ -671,7 +671,11 @@ section {
   font-size: 22px;
 }
 .services .icon-box h4 a {
-  color: #222222;
+  color: #5cb874;
+  transition: ease-in-out 0.3s;
+}
+.services .icon-box h4 a:hover {
+  color: #5cb8756c;
   transition: ease-in-out 0.3s;
 }
 .services .icon-box p {
@@ -682,7 +686,7 @@ section {
 .services .icon-box:hover {
   border-color: #fff;
   box-shadow: 0px 0 35px 0 #5cb875c0;
-  color: #5cb874;
+  
 }
 .services .iconbox-blue i {
   color: #47aeff;
@@ -1242,4 +1246,9 @@ section {
 }
 #footer .credits {
   font-size: 13px;
+}
+
+.icono-servicios {
+  height: 60px;
+  width: 60px;
 }
