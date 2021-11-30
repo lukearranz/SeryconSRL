@@ -23,7 +23,7 @@
 
         // Desde este mail salen los correos
         $mail->Username = "seryconwebpage@gmail.com"; //enter you email address
-        $mail->Password = 'sanlu2574'; //enter you email password
+        $mail->Password = 'Serycon12345'; //enter you email password
 
 
         $mail->Port = 465;
