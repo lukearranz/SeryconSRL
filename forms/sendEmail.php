@@ -34,7 +34,7 @@
         $mail->setFrom($email,$name);
 
         // A este mail llegan los correos
-        $mail->addAddress("seryconsrl@gmail.com"); //enter you email address
+        $mail->addAddress("gestion@serycon.com.ar"); //enter you email address
         $mail->addAddress("seryconwebpage@gmail.com"); //enter you email address
 
         $mail->Subject = ("$email - ($subject)");
