@@ -777,11 +777,14 @@
                 <div class="sent-message">Su consulta ha sido enviada, responderemos a la brevedad, gracias!</div>
               </div>
               <div class="text-center"><button type="submit">Enviar Mensaje</button></div>
+              
+              <!-- Captcha -->
+              <div class="g-recaptcha" data-sitekey="6LdGPDQcAAAAAKMDACwjQfRK23eySxEb3nvSs-cV" data-size="invisible"
+              data-callback="formSubmit"></div>
+
             </form>
           </div>
-
         </div>
-
       </div>
     </section><!-- End Contact Section -->
 
@@ -823,6 +826,24 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <!-- Captcha Js -->
+  <script>
+    $('#form-contact').submit(function (event) {
+      event.preventDefault();
+      grecaptcha.reset();
+      grecaptcha.execute();
+    });
+
+    function formSubmit(response) {
+      // submit the form which now includes a g-recaptcha-response input
+    }
+
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://www.google.com/recaptcha/api.js"></script>
+  <!-- End captcha js -->
+
 
 </body>
 
